@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+
+}
+:root{
+    --c:#f67c92;
+}
+#header{
+    background-image:url("./images/background.png");
+    height: 100vh;
+    background-size: cover;
+    align-content: center;
+}
+.logo{
+    max-width: 100px;
+    margin-top: 30px;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.upper-text{
+    max-width: 350px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.square{
+    width: 12px;
+    height: 12px;
+    margin-top: 30px 0px;
+    display: inline-block;
+    background-color:var(--c);
+}
+.common-btn{
+    border: 2px solid var(--c);
+    margin: 20px 0px;
+    padding: 18px 40px;
+    background:transparent;
+    outline: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{font-size:15px;
+    line-height:18px;
+    color:#777;}
+.upper-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#line-1{
+    width: 15px;
+    height: 15px;
+    background-color: var(--c);
+    display: inline-block;
+}
+#line-2{
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+    background-color: var(--c);
+}
+#line-3{
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--c);
+}
+.social-logo{
+    max-width: 20px;
+    position: fixed;
+    top: 50%;
+    left: 0px;
+}
+.social-logo img{display:block;
+    width:20px;
+    margin:0 auto 20px;
+    cursor:pointer;}
+#menu-btn{
+    display: inline-block;
+    width: 70px;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    height: 70px;
+
+}
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    right: -250px;
+    top:0px;
+    background-color: var(--c);
+    z-index: 2;
+    padding: 20px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav ul li{list-style:none;
+    margin:50px 20px;}
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-side{
+    flex-basis: 50%;
+}
+#about img{
+    width: 100%;
+}
+.right-side{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width:500px;
+    margin-right:100px;
+    display:inline-block;
+}
+.about-text h2{
+    margin:50px 0 10px;
+    font-size:28px;
+    font-style:italic;}
+.about-text h3{
+    margin:50px 0 10px;
+    font-size:20px;
+    font-style:italic;
+    color:#797979;}
+    #features{padding-top:50px;
+        padding-bottom:50px;}
+.feature-row{
+    width:80%;
+       margin:auto;
+               display:flex;
+               align-items:center;
+               justify-content:space-around;
+               flex-wrap:wrap;
+}
+.feature-col{
+    flex-basis:25%;
+     text-align:center;
+}
+.feature-row img{
+ width:100px;
+}
+.feature-row h4{font-size:20px;
+                   margin-bottom:15px;
+                   font-weight:400;}
+.feature-btn{margin:80px auto 0;
+               display:flex;
+               align-items:flex-end;/*vertical alignment*/
+               justify-content:center; /*horizontal alignment*/
+               }
+.feature-btn .line{
+               text-align:right;
+               display:inline-block;
+               margin-right:25px;
+                    }
+#courses{
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 100vh;
+    padding-top: 20px 0px;
+    
+}
+.course-text{
+    max-width: 350px;
+}
+.course-text h2{
+    font-weight: bold;
+    line-height:20px;
+    font-size: larger;
+}
+.course-text .square{
+    margin:10px 0px;
+}
+.course-text p{
+   line-height:15px;
+   margin-top: 10px;
+}
+#cimg{
+    display: inline-block;
+    width:60%;
+    position: relative;
+    top: -350px;
+    left: 500px;
+}
+#offers{
+    padding:100px 0;
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.offer-leftcol{
+  flex-basis: 50%;
+}
+#offer img{ 
+  width: 100%;
+}
+.offer-rightcol{
+    flex-basis: 50%;
+    align-items: right;
+}
+.offertext{
+    max-width: 350px;
+    margin-right: 100px;
+
+}
+.offertext h2{
+    margin:50px 0 10px;
+    font-size:28px;
+    font-style:italic;}
+.offertext h3{
+    margin:50px 0 10px;
+    font-size:20px;
+    font-style:italic;
+    color:#797979;}
